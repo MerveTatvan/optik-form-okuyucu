@@ -23,8 +23,8 @@ Telefonla çekilmiş ya da taranmış **optik formu** otomatik olarak hizalayan,
 Python 3.9+ gerekir.
 
 ```bash
-git clone https://github.com/<kullanici-adin>/optik-okuyucu.git
-cd optik-okuyucu
+git clone https://github.com/MerveTatvan/optik-form-okuyucu.git
+cd optik-form-okuyucu
 
 python -m venv .venv
 # Windows (PowerShell):  .venv\Scripts\Activate.ps1
