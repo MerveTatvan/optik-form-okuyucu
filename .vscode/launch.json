@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Demo (örnek form üret + puanla)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "args": ["demo"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Puanla: samples klasörü (debug)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "args": ["grade", "samples", "--key", "data/answer_key.json", "--debug"],
+      "console": "integratedTerminal"
+    }
+  ]
+}
